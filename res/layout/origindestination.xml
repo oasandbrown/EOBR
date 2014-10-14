@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/relativeLayout1" 
+    			android:layout_width="fill_parent" 
+    			android:gravity="left" 
+    			android:layout_height="600px">	
+	    
+			<TextView
+				android:id="@+id/textview1"
+        		android:text="Selecta Origen"	
+        		android:textSize = "20sp"
+       			android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true" 
+    			android:layout_marginLeft="90px"
+    			android:layout_marginTop ="10px"
+        		android:layout_below = "@+id/relativeLayout1" 
+        		
+       		 />
+       		 <TextView
+				android:id="@+id/textview2"
+        		android:text="Selecta Destino"	
+        		android:textSize = "20sp"
+ 				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true"   
+    			android:layout_marginLeft="400px"
+    			android:layout_marginTop ="10px"
+        		android:layout_below = "@+id/relativeLayout1" 
+        	/>
+        	<TextView
+				android:id="@+id/textview3"
+        		android:text="Selecta El Tipo De Viaje"
+        		android:textSize = "20sp"
+ 				android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true"  
+    			android:layout_marginLeft="670px"
+    			android:layout_marginTop ="10px"
+        		android:layout_below = "@+id/relativeLayout1" 
+        	/>
+        
+        	<Spinner
+        		android:id="@+id/origin"        	
+        		android:scaleType = "fitCenter"
+        		android:layout_width="300px" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true" 
+    			android:layout_marginLeft="33px"
+    			android:layout_marginTop ="25px"
+        		android:layout_below = "@+id/textview1"
+    		/>
+    		
+        	<Spinner
+        		android:id="@+id/destination"
+        		android:scaleType = "fitCenter"
+        		android:layout_width="300px" 
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true"   
+    			android:layout_marginLeft="355px"
+    			android:layout_marginTop ="25px"
+        		android:layout_below = "@+id/textview2"
+    		/>   
+    		<Spinner
+    			android:id = "@+id/triptype"  
+    			android:scaleType = "fitCenter"   
+    			android:layout_width="300px"
+    			android:layout_height="wrap_content" 
+    			android:layout_alignParentLeft="true"  
+    			android:layout_marginLeft="678px"
+    			android:layout_marginTop ="25px"
+    			android:layout_below = "@+id/textview3" 
+    		/>  
+    		
+    		<Button
+        		android:id="@+id/save"
+        		android:text="Guardar"
+				android:layout_span = "5"
+				android:layout_height="60px"
+				android:layout_width="950px"
+				android:layout_marginTop ="220px"
+				android:layout_marginLeft="33px"
+				android:layout_below = "@+id/paperworkorigin"
+				android:background = "@drawable/home_button"
+	
+ 			/>
+ 			     
+ 			
+ 			<Button
+        		android:id="@+id/next"
+        		android:text="Informacion De Viaje"
+				android:layout_span = "5"
+				android:layout_height="60px"
+				android:layout_width="950px"
+				android:layout_marginTop ="70px"
+				android:layout_marginLeft="33px"
+				android:layout_below = "@+id/save"
+				android:background = "@drawable/home_button"
+	
+ 			/>
+    	</RelativeLayout> 	
+
+
+        
+ 
+        
+        
+              

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">DrayageElectronicOnboardRecorder</string>
+<string name="app_name">DrayageElectronicOnboardRecorder</string>
+<string name="start">Start</string>
+<string name="stop">Stop</string>
+<string name="service_name">MainService</string>
+<string name="local_service_started">MainService is running</string>
+<string name="local_service_stopped">MainService has stopped</string>
+<string name="local_service_connected">Service Connection Established</string>
+<string name="local_service_disconnected">Service Connection killed</string>
+<string name="Export">Export KML to SD Card</string>
+<string name="terminal_prompt">Waiting at terminal</string>
+<string-array name="terminal_array">
+	<item>Puerta Cerrado</item>
+    <item>Linea De Trocas</item>
+</string-array>
+<string-array name = "origin_array">
+	<item>Puerto</item>
+	<item>Yarda De Tren</item>
+	<item>Yarda De Almacenaje</item>
+	<item>Almacen</item>
+	<item>Otra Destinacion</item>
+</string-array>
+<string-array name = "destination_array">
+	<item>Puerto</item>
+	<item>Yarda De Tren</item>
+	<item>Yarda De Almacenaje</item>
+	<item>Almacen</item>
+	<item>Otra Destinacion</item>
+</string-array>
+<string-array name = "triptype_array">
+	<item>Recojer Una Vacio</item>
+	<item>Recojer Una Llena</item>
+	<item>Entraga Una Vacio</item>
+	<item>Entraga Una Llena</item>
+</string-array>
+<string name="origin_prompt">Waiting Inside The Gate</string>
+<string-array name = "inside_origin_array">
+	<item>Problema De Equipo</item>
+	<item>Localizar El Transporte</item>
+</string-array>
+<string name="destination_prompt">Waiting Inside The Gate</string>
+<string-array name = "inside_destination_array">
+	<item>Problema De Equipo</item>
+	<item>Localizar El Transporte</item>
+</string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>	
+    	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    					android:id="@+id/relativeLayout1" 
+    					android:layout_width="fill_parent" 
+    					android:gravity="left" 
+    					android:layout_height="600px">		
+    		
+    	<!--    	<EditText 
+    				android:layout_width="fill_parent" 
+    				android:layout_height="wrap_content" 
+    				android:id="@+id/EditTextTripName" 
+    				android:layout_below = "@+id/label" 
+    				android:width="200px">
+    		</EditText> -->
+    	
+    		<TextView
+    				android:id="@+id/OnDuty"
+        			android:text="On Duty"
+        			android:textSize = "25sp"
+        			android:typeface = "sans"
+       				android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_alignParentLeft="true" 
+    				android:layout_marginLeft="200px"
+    				android:layout_marginTop ="30px">
+        			<!--  android:layout_below = "@+id/EditTextTripName"> -->
+    		</TextView>
+    		
+    		<TextView
+    				android:id="@+id/OffDuty"
+        			android:text="Off Duty"
+        			android:textSize = "25sp"
+        			android:typeface = "sans"
+ 					android:layout_width="wrap_content" 
+    				android:layout_height="wrap_content" 
+    				android:layout_alignParentRight="true"  
+    				android:layout_marginRight="200px"
+    				android:layout_marginTop ="30px">
+        		<!--  	android:layout_below = "@+id/EditTextTripName"> -->
+    		</TextView> 
+    
+    		<Button 
+    				android:layout_width="200px" 
+    				android:layout_height="200px" 
+    				android:layout_alignParentLeft="true" 
+    				android:layout_centerVertical="true" 
+    				android:layout_marginLeft="200px"
+    				android:layout_marginTop ="50px"
+    				android:layout_below = "@+id/OnDuty"
+    				android:background="@drawable/start_button" 
+    				android:id="@+id/ButtonStart">
+    		</Button>
+    		<Button 
+    				android:layout_width="200px" 
+    				android:layout_height="200px"
+    				android:layout_alignParentRight="true"  
+    				android:layout_centerVertical="true" 
+    				android:layout_marginRight="200px"
+    				android:layout_marginTop ="50px"
+    				android:layout_below = "@+id/OffDuty"
+    				android:background="@drawable/stop_button" 
+    				android:id="@+id/ButtonStop">
+    		</Button>
+
+	
+      		
+    	</RelativeLayout> 

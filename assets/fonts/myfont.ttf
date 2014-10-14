@@ -1,0 +1,1 @@
+Typeface myFont = Typeface.createFromAsset(getAssets(), "fonts/myfont.ttf");
